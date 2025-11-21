@@ -1,94 +1,72 @@
-# 🚀 INDEVSTUDIO ULTRA DEBLOAT
-### Windows 10 / 11 Advanced Debloat Script  
-**Fast • Lightweight • Open Source**
+# INDEVSTUDIO ULTRA DEBLOAT
 
-INDEVSTUDIO ULTRA DEBLOAT is a fully-automated Windows optimization script built to remove bloatware, disable telemetry, increase performance, and optimize low-end devices.
+**An advanced, open-source, and fully automated utility for Windows 10/11.**
 
-This project includes:
-- ✔ Safe Debloat (Apps, cleanup, services)
-- ✔ Hardcore Debloat (Telemetry, Defender, Xbox, Ads, OneDrive)
-- ✔ Full UI animations in PowerShell
-- ✔ Performance tweaks for gaming & dev
-- ✔ Temporary file cleanup
-- ✔ Zero external dependencies
+INDEVSTUDIO ULTRA DEBLOAT is an advanced and fully automated utility for Windows 10/11. It removes bloatware, disables telemetry, privacy-related services, and more. It is designed to be lightweight, fast, and compatible with low-end devices.
 
----
+## Features
 
-## ⚡ Features
+- **User-friendly Interface:** The script has a user-friendly interface with animations and progress bars.
+- **Safe Debloat:** Removes bloatware, and disables unnecessary services.
+- **Hardcore Debloat:** Disables telemetry, Windows Defender, OneDrive, and more.
+- **Performance Tweaks:** Optimizes Windows for gaming and development.
+- **System Restore:** Creates a system restore point before making any changes.
+- **Tools:** Includes useful tools for system maintenance and optimization.
+- **Skip All:** Skips all the debloating actions.
+- **Exit:** Exits the script.
 
-| Category | Description |
-|---------|-------------|
-| 🧹 **Debloat** | Removes unwanted apps, packages, Xbox components, bloatware |
-| 🔥 **Hardcore Mode** | Disables telemetry, Cortana, Defender, OneDrive, Ads |
-| 🚀 **Performance Boost** | Lower latency, disable background apps, optimize services |
-| 💾 **Cleanup** | Clears caches, temp, unused logs |
-| 🎨 **Animations** | PowerShell spinner + progress bar + banner |
-| 🔋 **Low-End PC Friendly** | Designed for weak hardware (2GB/4GB RAM systems) |
+## Removed Applications
 
----
+The following applications will be removed:
 
-## 📂 Folder Structure
+- `Microsoft.3DBuilder`
+- `Microsoft.BingFinance`
+- `Microsoft.BingNews`
+- `Microsoft.BingSports`
+- `Microsoft.BingWeather`
+- `Microsoft.GetHelp`
+- `Microsoft.Getstarted`
+- `Microsoft.Microsoft3DViewer`
+- `Microsoft.MicrosoftOfficeHub`
+- `Microsoft.MicrosoftSolitaireCollection`
+- `Microsoft.MinecraftUWP`
+- `Microsoft.MixedReality.Portal`
+- `Microsoft.OneConnect`
+- `Microsoft.People`
+- `Microsoft.Print3D`
+- `Microsoft.SkypeApp`
+- `Microsoft.Xbox.TCUI`
+- `Microsoft.XboxApp`
+- `Microsoft.XboxGameOverlay`
+- `Microsoft.XboxGamingOverlay`
+- `Microsoft.XboxIdentityProvider`
+- `Microsoft.XboxSpeechToTextOverlay`
+- `Microsoft.YourPhone`
+- `Microsoft.ZuneMusic`
+- `Microsoft.ZuneVideo`
 
-INDEVSTUDIO-ULTRA-DEBLOAT/
-│
-├── INDEVSTUDIO-ULTRA-DEBLOAT.ps1
-├── run.bat
-├── README.md
-└── LICENSE
+## How to Use
 
----
+### Recommended Method
 
-## 🛠️ How to Use
+1. Download the latest release from the [releases page](https://github.com/INDEV-STUDIO/INDEVSTUDIO-ULTRA-DEBLOAT/releases).
+2. Extract the archive and run `run.bat` as administrator.
 
-### **Method 1 — Double Click (Recommended)**  
-Just run:run.bat
+### Manual Method
 
-It will automatically launch PowerShell with admin permissions and run the debloat script.
+1. Clone the repository: `git clone https://github.com/INDEV-STUDIO/INDEVSTUDIO-ULTRA-DEBLOAT.git`
+2. Open PowerShell as administrator and navigate to the repository's directory.
+3. Run the following command: `Set-ExecutionPolicy Bypass -Force; .\INDEVSTUDIO-ULTRA-DEBLOAT.ps1`
 
----
+## Disclaimer
 
-### **Method 2 — Manual Install**
+This script makes significant changes to your system. It is highly recommended that you create a system restore point before running it. The author is not responsible for any damage caused by this script.
 
-1. Right-click **PowerShell → Run as Administrator**
-2. Run:
+## Credits
 
-```powershell
-Set-ExecutionPolicy Bypass -Force
-.\INDEVSTUDIO-ULTRA-DEBLOAT.ps1```
+- [INDEVSTUDIO](https://github.com/INDEV-STUDIO)
+- [Open-Source Community Testers](https://github.com/INDEV-STUDIO/INDEVSTUDIO-ULTRA-DEBLOAT/graphs/contributors)
 
----
+## License
 
-### **⚠️ Warning (IMPORTANT)**
-
-This script includes HARDCORE modifications:
-
-❌ Disables Windows Defender
-
-❌ Removes OneDrive
-
-❌ Disables Telemetry
-
-❌ Disables Cortana
-
-❌ Disables Xbox Services
-
-❌ Removes some built-in apps
-
-If you want a lighter version, use the SAFE script instead.
-
-### **⭐ Credits**
-
-INDEVSTUDIO — Creator
-Open-Source Community Testers
-
-### **📜 License**
-
-This project is released under the MIT License (see LICENSE).
-
-### **❤️ Support the Project**
-
-If you like the script:
-
-⭐ Star the repo
-🍴 Fork it
-🚀 Submit pull requests
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
