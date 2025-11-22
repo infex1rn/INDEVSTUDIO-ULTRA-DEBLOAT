@@ -64,8 +64,9 @@ This script makes significant changes to your system. It is highly recommended t
 
 ## Credits
 
-- [INDEVSTUDIO](https://github.com/INDEV-STUDIO)
-- [Open-Source Community Testers](https://github.com/INDEV-STUDIO/INDEVSTUDIO-ULTRA-DEBLOAT/graphs/contributors)
+- [INDEVSTUDIO](https://github.com/infex1rn)
+- [INFEXJAY](https://github.com/infexjay)
+- [Open-Source Community Testers](https://github.com/infex1rn/INDEVSTUDIO-ULTRA-DEBLOAT/graphs/contributors)
 
 ## License
 
