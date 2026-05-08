@@ -99,25 +99,7 @@ function Banner {
     Write-Host ""
 }
 
-# ==========================================================
-# RESTORE POINT
-# ==========================================================
-
-function Create-Restore {
-
-    Show-Animation "Creating Restore Point..."
-
-    Enable-ComputerRestore `
-    -Drive "C:\" `
-    -ErrorAction SilentlyContinue
-
-    Checkpoint-Computer `
-    -Description "INDEVSTUDIO-XMODE" `
-    -RestorePointType "MODIFY_SETTINGS"
-
-    Log "Restore Point Created"
-}
-
+# 
 # ==========================================================
 # TELEMETRY KILL
 # ==========================================================
